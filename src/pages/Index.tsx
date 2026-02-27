@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const HOUSE_IMG = "https://cdn.poehali.dev/projects/6122fed3-ab10-4bdf-b555-707cb1e3139f/files/63f228bd-684b-46e4-807e-98ee858e4018.jpg";
-const WORKERS_IMG = "https://cdn.poehali.dev/projects/6122fed3-ab10-4bdf-b555-707cb1e3139f/files/d88f8e10-da0c-49f5-8e7c-b95bfd653fb2.jpg";
+const WORKERS_IMG = "https://cdn.poehali.dev/projects/6122fed3-ab10-4bdf-b555-707cb1e3139f/files/38914767-9d29-4d87-8e6f-f982a761673c.jpg";
 
 const services = [
   { icon: "🖌️", title: "Покраска стен", desc: "Любые цвета, ровный слой, без капель на полу!", color: "#FFD600", text: "#000" },
