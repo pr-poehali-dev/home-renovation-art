@@ -121,9 +121,11 @@ export default function Index() {
             </button>
           ))}
         </div>
-        <WobblyButton color="#FF3B3B" textColor="#fff" onClick={() => scrollTo("contacts")}>
-          📞 Позвонить!
-        </WobblyButton>
+        <a href="tel:+79061137979">
+          <WobblyButton color="#FF3B3B" textColor="#fff">
+            📞 Позвонить!
+          </WobblyButton>
+        </a>
       </nav>
 
       {/* HERO */}
@@ -300,8 +302,8 @@ export default function Index() {
               style={{ backgroundColor: "#FFD600", border: "3px solid #000", borderRadius: "12px 4px 14px 6px", boxShadow: "5px 5px 0px #000" }}
             >
               <div className="text-4xl mb-3">📞</div>
-              <div className="font-bold text-3xl text-black" style={{ fontFamily: "Caveat, cursive" }}>+7 (999) 123-45-67</div>
-              <div className="text-gray-700 mt-1">Работаем с 8:00 до 21:00</div>
+              <a href="tel:+79061137979" className="font-bold text-3xl text-black hover:underline" style={{ fontFamily: "Caveat, cursive" }}>+7 (906) 113-79-79</a>
+              <div className="text-gray-700 mt-1">Работаем с 9:00 до 18:00</div>
             </div>
             <div
               className="p-6 text-center"
