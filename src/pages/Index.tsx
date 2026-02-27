@@ -188,7 +188,7 @@ export default function Index() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
             <h2 className="font-bold text-6xl text-black mb-3" style={{ fontFamily: "Caveat, cursive" }}>Что мы умеем?</h2>
-            <p className="text-gray-600 text-lg">Всё! Ну, почти всё 😄</p>
+            <p className="text-gray-600 text-lg">Всё! Ну почти фсё 😄</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((s, i) => (
