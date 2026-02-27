@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const HOUSE_IMG = "https://cdn.poehali.dev/projects/6122fed3-ab10-4bdf-b555-707cb1e3139f/files/d0f0a7e2-0374-411f-8916-55f24cfc7433.jpg";
+const HOUSE_IMG = "https://cdn.poehali.dev/projects/6122fed3-ab10-4bdf-b555-707cb1e3139f/files/63f228bd-684b-46e4-807e-98ee858e4018.jpg";
 const WORKERS_IMG = "https://cdn.poehali.dev/projects/6122fed3-ab10-4bdf-b555-707cb1e3139f/files/d88f8e10-da0c-49f5-8e7c-b95bfd653fb2.jpg";
 
 const services = [
